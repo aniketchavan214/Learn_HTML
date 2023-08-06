@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="contact_form" content="Building a contact form">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <p>
+        <form action="/submit_contact_form" method="post">
+            <fieldset>
+                <legend>Personal Info</legend>
+                <p>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Aniket Chavan" required autocomplete="on" autofocus>
+
+                </p>
+                <p>
+
+                    <label for="email">email &nbsp; &nbsp; &nbsp; &nbsp;</label>
+                    <input type="email" name="email" id="email" placeholder="aniketchavan214@gmail.com" required autocomplete="on">
+                </p>
+                <p>
+
+                    <label for="subject">Subject &nbsp; &nbsp; &nbsp;</label>
+                    <input type="text" name="subject" id="subject" required autocomplete="on">
+                </p>
+                <p>
+
+                    <label for="message">message &nbsp; &nbsp;</label>
+                    <br>
+                    <textarea name="message" id="message" placeholder="Type your message here" rows=10 cols=30 required autocomplete="on"></textarea>
+                </p>
+
+                <button type="submit">Submit</button>
+
+
+
+            </fieldset>
+
+
+
+
+        </form>
+    
+</body>
+</html>
